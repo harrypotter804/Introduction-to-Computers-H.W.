@@ -5,7 +5,7 @@ main()
 {
 
 int i,j,k,num;
-float sum,x,factorial,rad,value,abserror;
+float sum,sum2,x,factorial,rad,value,value2,abserror;
 
 sum = 0;
 x = 60;
@@ -34,10 +34,13 @@ value = sin(rad);
 
 	num = i%2;
 
+	value2 = pow(value,2);
+	sum2 = pow(sum,2);
+
 	if (num == 0)
 	{
 
-		printf("      %d            %.5f      %.5f              %.5f \n",i ,sum ,value ,abserror);
+		printf("      %d            %.5f      %.5f              %.5f \n",i ,sum2 ,value2 ,abserror);
 
 	}
 
