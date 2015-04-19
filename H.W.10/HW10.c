@@ -51,8 +51,7 @@ return A;
 main()
 {
 
-printf("The area function of the triangle \
-		is A = (1/2)*a*b*sin(theta) \n");
+printf("The area function of the triangle is A = (1/2)*a*b*sin(theta) \n");
 printf("(a) a = 5.3, b = 4.8, theta = 35.0 (degree)\n");
 printf("(a) a = 120.5, b = 46.0, theta = 78.0 (degree)\n");
 printf("(a) a = 22.5, b = 15.5, theta = 90.0 (degree)\n");
